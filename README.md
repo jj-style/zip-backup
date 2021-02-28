@@ -1,4 +1,4 @@
-# zip-backup
+# zipy-backup
 Zip backup utility written in Python.  
   
 ## Usage

@@ -8,7 +8,7 @@ setup(
     description="Zip backup utility",
     author="JJ Style",
     author_email="style.jj@pm.me",
-    url="https://github.com/jj-style/zip-backup",
+    url="https://github.com/jj-style/zipy-backup",
     entry_points={
         "console_scripts": ["zipy-backup = backupper:main"],
     }
