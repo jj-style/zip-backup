@@ -2,9 +2,14 @@
 Zip backup utility written in Python.  
   
 ## Usage
+### Installation
+- `pip install -e .`
+- `$ zipy-backup`
+
+### Manual
 - Put [backupper.py](backupper.py) anywhere you like, I use `~/.local/bin`.
 - Mark script as executable `sudo chmod +x ~/.local/bin/backupper.py`
-- Copy/Create the configuration file in `/usr/local/etc/backup.conf`
+- Copy/Create the configuration file in `/usr/local/etc/zipy-backup.conf`
 - Call script whenever you want, in systemd unit or in crontab to backup folders and frequently/infrequently as you like
 
 ### Configuration
